@@ -1,0 +1,249 @@
+body {
+
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo", "游ゴシック", "YuGothic", "ＭＳ Ｐゴシック", "Helvetica, Arial", "sans-serif";
+  margin-right: auto;
+  margin-left : auto;
+  height:100%;
+}
+
+
+/* index.html */
+.color1{
+  color:#1d1158;
+}
+.color2{
+  color:#ffffff;
+}
+.color3{
+  color:red;
+}
+.fl_l{float:left;}
+.clear{clear: both;}
+.pt3{padding-top:3px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.mb10{margin-bottom:10px;}
+
+
+
+
+
+.top{
+  width:100%;
+  background-image: url(../images/new/top.png);
+  background-repeat: no-repeat;
+  background-position:-150pt 0pt;
+  background-size: cover;
+  padding-bottom:50px;
+}
+.topin{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topright{
+  width:50%;
+  padding-top: 100px;
+  margin-left: auto;
+}
+.box1{
+  width:100%;
+  margin-bottom: 20px;
+}
+.flets{
+  width:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cashback{
+  width:100%;
+}
+.cashbackcover{
+  height:102px;
+}
+.toptext{
+  font-size:100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box2{
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
+  padding:5px;
+}
+.nishigentei{
+  float:left;
+  width:50%;
+  padding-top: 8px;
+}
+.nishigenteiin{
+  width:100%;
+}
+.box3{
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+.tokuten1,.tokuten2,.tokuten3{
+  padding-top: 20px;
+  padding-left:10px;
+  overflow: hidden;
+}
+.tokutenimg1,.tokutenimg2,.tokutenimg3{
+  width:20%;
+  float:left;
+  margin-right: 10px;
+}
+.toptextbox{
+  float:left;
+  padding-top: 5px;
+  width:75%;
+}
+.main2_midashi,.main3_midashi,.main4_midashi{
+  width:100%;
+  background-color: #1d1158;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.midashitext{
+  color:#ffffff;
+  text-align: center;
+  font-size: 150%;
+}
+.main_box2back{
+  background-color: #ffffce;
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main_box2{
+  padding-top: 10px;
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_boxtext{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hyou1,.hyou2,.hyou3,.hyou4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+}
+.main3_boxback{
+  width:85%;
+  padding:2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/new/back_blue.png);
+  background-repeat: repeat;
+  overflow: hidden;
+  border-radius: 20px;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-box;
+  display:-webkit-flexbox;
+  display:-moz-flexbox;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  -webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+.main3_box1,.main3_box2,.main3_box3,.main3_box4{
+  float:left;
+  width:44%;
+  margin: 1%;
+  padding:2%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.mark1,.mark2,.mark3,.mark4{
+  width:70%;
+  margin-bottom: 10px;
+}
+.main3_boxin,.main4_boxin{
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main3_box3img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.meritto{
+  border-radius: 20px;
+  width:80%;
+  background-color: #f1e1ed;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.merittoimg{
+  width:20%;
+  margin-bottom: 10px;
+}
+.ulmeritto{
+  margin-left: 100px;
+}
+
+.price{
+  border: 1px solid #000;
+}
+
+
+.toiawase{
+  margin-top: 15px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.toitop{
+  border: 3px solid #110ac1;
+  border-bottom: 0px;
+  background-color: #101690;
+  padding:10px;
+  padding-left: 40px;
+}
+.toitop p{
+  font:120%;
+  font-weight: bolder;
+  color:#fff
+}
+.toibottom{
+  border: 3px solid #110ac1;
+  border-top: 0px;
+  overflow: hidden;
+  padding:10px;
+}
+.toiimg{
+  float:left;
+  width:20%;
+}
+.toibtmtxt{
+  float:left;
+  width:75%;
+  padding:2%;;
+}
+.sannkaku{
+  width:5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}

@@ -1,0 +1,6 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+@media print{ 
+
+body{ zoom: 60%; /* for only IE6 style */}
