@@ -222,15 +222,11 @@ table{
 	text-align:center;
 	color:#FFFFFF;
 	background-color: #345cd1;
-
 }
 td{
 	padding:5px 8px;
 	text-align:center;
 	color:#333;
-	/*border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #999999;*/
 	background-color: #ffffff;
 	line-height:150%;
 	border-bottom-width: 1px;
