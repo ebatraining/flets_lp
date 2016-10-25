@@ -154,19 +154,7 @@ ol {
 	background-color: #ffffff;
 
 }
-#contents_b td{
-	padding:5px 8px;
-	text-align:center;
-	color:#333;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #999999;
-	background-color: #ffffff;
-	line-height:150%;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #999999;
-}
+
 #contents_b .td02{
 	text-align:left;
 	color:#666666;
