@@ -12,10 +12,11 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <meta name="keywords" content="フレッツ光,ネクスト,キャッシュバック,ひかり,インターコネクト,インターネット,NTT" />
 <meta name="description" content="フレッツ光、キャッシュバックキャンペーン!!ご相談はインターコネクトへ" />
-<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+<link rel="stylesheet" href="js/vegas/vegas.min.css">
 <title>フレッツ光　キャッシュバックキャンペーン/インターコネクト</title>
 <script type="text/javascript" src="js/rollover.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/vegas/vegas.min.js"></script>
 <script type="text/javascript">
 $(function () {
     setTimeout('rect()'); //アニメーションを実行
@@ -28,6 +29,16 @@ function rect() {
     }, 800);
     setTimeout('rect()', 1600); //アニメーションを繰り返す間隔
 }
+$(function() {
+    $('.top').vegas({
+        slides: [
+            { src: 'images/new/top.png' },
+        { src: 'images/new/top02.png' },
+        { src: 'images/new/top03.png' },
+        { src: 'images/new/top04.jpg' }
+        ]
+    });
+});
 </script>
 </head>
 <body>
