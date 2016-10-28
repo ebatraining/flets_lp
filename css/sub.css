@@ -49,16 +49,14 @@ h5 {
 	margin-left: 48px;
 	}
 .btn_box {
-	width: 401px;
-	height:94px;
-	margin-left: auto;
-  margin-right: auto;
-	margin-top: 20px;
-	padding-top: 7px;
-	padding-left: 10px;
-	background-repeat: no-repeat;
-	margin-bottom: 20px;
+	  text-align: center;
 	}
+.btn_box img{
+  	width:40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 #contents_b {
 	padding-left: 13px;
 	padding-right: 12px;
