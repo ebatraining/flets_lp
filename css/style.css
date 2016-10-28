@@ -139,6 +139,30 @@ body {
 .hyou4{
 	margin-bottom:30px;
 }
+.syousaibox{
+  text-align: center;
+}
+.syousai01{
+  width: 35%;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.syousai02{
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.syousai03{
+  width: 35%;
+  display: inline-block;
+  margin-right: 30px;
+}
+.syousai04{
+  width: 35%;
+  display: inline-block;
+
+}
 .main3_boxback{
   width:85%;
   padding:2%;
