@@ -40,7 +40,46 @@ $(function() {
         ]
     });
 });
+
+$(function() {
+   // スクロールした場合
+   $(window).scroll(function() {
+
+		var $speed = 500;
+		var $delay = 300;
+       	if ($(this).scrollTop() + $(window).height() > $('#syousai_about').offset().top) {
+       		$('#syousai_about_title .syousai_ico')
+       			.animate({'width':'94px', 'padding-bottom':'0px'}, $speed);
+       		$('#syousai_cost_title .syousai_ico').delay($delay * 1)
+       			.animate({'width':'73px', 'padding-bottom':'0px'}, $speed);
+       		$('#syousai_faq_title .syousai_ico').delay($delay * 2)
+       			.animate({'width':'107px', 'padding-bottom':'0px'}, $speed);
+       		$('#syousai_contact_title .syousai_ico').delay($delay * 3)
+       			.animate({'width':'80px', 'padding-bottom':'0px'}, $speed);
+       	}
+   });
+});
 </script>
+<!--[if IE 7]>
+<script type="text/javascript">
+$(function () {
+    $('#syousai_about_title').css('padding-top', (($('#syousai_about .syousai_desc').height() - $('#syousai_about_title h2').innerHeight()) / 2) + 'px');
+});
+</script>
+<!--<![endif]-->
+<!--[if lte IE 10]>
+<script type="text/javascript">
+$(function () {
+	var $syousai_list_block_height = 0;
+	$.each($('.syousai_list_block_inner .syousai_desc'), function(i, val) {
+    	if (val.clientHeight > $syousai_list_block_height) {
+			$syousai_list_block_height = val.clientHeight;
+    	}
+	});
+	$('.syousai_list_block_inner .syousai_desc').css('height', $syousai_list_block_height + 'px');
+});
+</script>
+<!--<![endif]-->
 </head>
 <body>
   <!--ヘッダー-->
@@ -134,10 +173,103 @@ $(function() {
   <p class="main_boxtext">「Ｂフレッツ」、「フレッツ光ネクスト」、「フレッツ光プレミアム」は、加入者光ファイバを利用し、ＮＴＴ東日本/西日本の地域ＩＰ網を介して、
      お客様が契約するインターネットサービスプロバイダ等に接続するベストエフォート型のネットワークサービスです。</p>
   <div class="syousaibox">
+    <!-- 20170330 nikeda start -->
+    <!--
     <img src="images/syousai01.png" alt="月額料金" class="syousai01">
     <img src="images/syousai02.png" alt="よくあるご質問" class="syousai02">
     <img src="images/syousai03.png" alt="開通後のお問い合わせ"class="syousai03">
     <img src="images/syousai04.png" alt="サービス内容" class="syousai04">
+     -->
+
+    <div id="syousai_about" class="syousai">
+    	<div id="syousai_about_inner">
+          <div id="syousai_about_title" class="syousai_title">
+          	<img src="images/about_ico.png" alt="" class="syousai_ico" />
+            <h2><img src="images/about_title.png" alt="サービス内容"></h2>
+          </div>
+      
+          <div class="syousai_desc">
+            <p>
+            「フレッツ光ネクスト」は、通信料定額で最大200Mbpsの超高速サービスです！<br />
+            お気に入りのプロバイダもそのままご利用いただけます。<br />
+            また、オプションのひかり電話を併せてご利用することで、今お使いの電話番号がそのまま使えるだけでなく固定電話相当の音声品質とお得な通話料金、緊急通報等の通話が可能など、様々なサービスをご提供いたします。
+            </p>
+          </div><!-- end .syousai_desc -->
+          <div class="clear"></div>
+      
+      </div><!-- end #syousai_about_inner -->
+    </div><!-- end #syousai_about -->
+
+    <div id="syousai_list">
+    	<div id="syousai_cost" class="syousai_list_block syousai">
+        	<div class="syousai_list_block_inner">
+            
+            	<div class="syousai_title_block">
+	                <div id="syousai_cost_title" class="syousai_title">
+	                	<img src="images/cost_ico.png" alt="" class="syousai_ico" />
+	                    <h2><img src="images/cost_title.png" alt="月額利用料 初期費用"></h2>
+	                </div>
+            	</div>
+
+            	<div class="syousai_desc_block">
+	                <div class="syousai_desc">
+	                    <p>
+	                    豊富なメニューからぴったりのサービスをご選択いただけます。<br />
+	               		200Mbpsの高速接続がファミリー・ハイスピードタイプなら4,970円、マンション・ハイスピードタイプなら2,790円とお手軽な価格設定です。
+	                    </p>
+	                </div><!-- end .syousai_desc -->
+                </div>
+            </div>
+        </div>
+        
+     	<div id="syousai_faq" class="syousai_list_block syousai">
+        	<div class="syousai_list_block_inner">
+            
+            	<div class="syousai_title_block">
+	                <div id="syousai_faq_title" class="syousai_title">
+	                	<img src="images/faq_ico.png" alt="" class="syousai_ico" />
+	                    <h2><img src="images/faq_title.png" alt="よくあるご質問"></h2>
+	                </div>
+                </div>
+
+                <div class="syousai_desc_block">
+	                <div class="syousai_desc">
+	                    <p>
+	                    多くのお客様にご利用いただいている「フレッツ光ネクスト」。<br />
+	                    お客様から多くのご質問をいただいております。その中の代表的なQ&Aを掲載しました。
+	                    </p>
+	                </div><!-- end .syousai_desc -->
+                </div>
+                
+            </div>
+        </div>
+        
+     	<div id="syousai_contact" class="syousai_list_block syousai">
+        	<div class="syousai_list_block_inner">
+            
+            	<div class="syousai_title_block">
+	                <div id="syousai_contact_title" class="syousai_title">
+	                	<img src="images/contact_ico.png" alt="" class="syousai_ico" />
+	                    <h2><img src="images/contact_title.png" alt="開通後のお問合せ"></h2>
+	                </div>
+                </div>
+                
+                <div class="syousai_desc_block">
+	                <div class="syousai_desc">
+	                    <p>
+							通信速度、故障、技術、パソコンの接続設定などに関するお問い合わせ先など。<br />
+	                        「フレッツ光ネクスト」なら開通後も24時間365日受付でサポート万全です。<br />
+	                        ※開通されたユーザー様向けのお問合せ先となっております。
+	                    </p>
+	                </div><!-- end .syousai_desc -->
+                </div>
+                
+            </div>
+        </div>
+        
+    </div><!-- end #syousai_list -->
+    
+    <!-- 20170330 nikeda end -->
   </div>
     <div class="btn_box">
       <a href="inquiry/index.html"><img src="images/btn.png" alt="お申込み・お問い合わせ" /></a>

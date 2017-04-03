@@ -135,8 +135,13 @@ body {
 .hyou3 img{
 	margin-bottom:30px;
 }
+
 .syousaibox{
-  text-align: center;
+  /* 20170330 nikeda start */
+  width:850px;
+  margin-left: auto;
+  margin-right: auto;
+  /* 20170330 nikeda end */
 }
 .syousai01{
   width: 35%;
@@ -157,8 +162,156 @@ body {
 .syousai04{
   width: 35%;
   display: inline-block;
-
 }
+
+/* 20170330 nikeda start */
+html, body {
+  height: 100%;
+}
+
+.syousai {
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+  padding:20px;
+}
+
+.syousai_title_block, .syousai_desc_block {
+  display: table-row;
+}
+
+.syousai_ico {
+  margin-bottom: 20px;
+  width: 0px;
+}
+
+#syousai_about .syousai_ico {
+  padding-bottom: 82px;
+}
+
+#syousai_cost .syousai_ico {
+  padding-bottom: 73px;
+}
+
+#syousai_faq .syousai_ico {
+  padding-bottom: 74px;
+}
+
+#syousai_contact .syousai_ico {
+  padding-bottom: 70px;
+}
+
+.syousai_title, .syousai_desc {
+  display: table-cell;
+  text-align: center;
+}
+
+.syousai_desc {
+  height: 100%;
+}
+
+.syousai_title h2 {
+	background-position: center top;
+  	background-repeat: no-repeat;
+	text-align:center;
+}
+
+.syousaibox p {
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.syousai_desc {
+  background-image: url(../images/syousai_text_mask.png);
+  width:100%;
+  margin:0px;
+  text-align: left;
+}
+
+#syousai_about {
+  background-image: url(../images/about_bg.jpg);
+  margin-left:25px;
+  margin-right:25px;
+  margin-bottom:25px;
+}
+
+#syousai_about_inner {
+	display:table;
+}
+
+#syousai_about_title  {
+	width:219px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-right:20px;
+  *display: block;
+  *float: left;
+  *padding-right: 0px;
+}
+
+#syousai_about_title h2 {
+  width:199px;
+  display: block;
+}
+
+#syousai_about .syousai_desc {
+	display:table-cell;
+  *display:block;
+  *float:right;
+  *width: 541px;
+}
+
+#syousai_list {
+	display:table;
+	border-collapse:separate;
+    border-spacing:25px 0;
+    height: 100%;
+    *display: block;
+    *width: 825px;
+}
+
+
+.syousai_list_block {
+	display:table-cell;
+	background-position:left bottom;
+	position: relative;
+  height: 100%;
+  *display: block;
+  *width: 250px;
+  *padding:20px 0px;
+  *text-align: center;
+  *float: left;
+}
+
+.syousai_list_block_inner {
+	width:210px;
+  display: table;
+  height: 100%;
+  border-collapse: collapse;  
+}
+
+.syousai_list_block h2 {
+	margin-bottom:20px;
+}
+
+.syousai_list_block .syousai_desc {
+}
+
+#syousai_cost {
+	background-image: url(../images/cost_bg.jpg);
+  *margin:0px 25px;
+}
+
+#syousai_faq {
+	background-image: url(../images/faq_bg.jpg);
+  *margin-right: 25px;
+}
+
+#syousai_contact {
+	background-image: url(../images/contact_bg.jpg);
+}
+
+.clear { clear:both; }
+/* 20170330 nikeda end */
+
 .main3_boxback{
   width:85%;
   padding:2%;
