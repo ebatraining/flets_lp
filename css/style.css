@@ -31,9 +31,8 @@ body {
 .top{
   width:100%;
   background-repeat: no-repeat;
-  background-position:-150pt 0pt;
+  background-position:center top;
   background-size: cover;
-  padding-bottom:50px;
 }
 .topin{
   width:1000px;
