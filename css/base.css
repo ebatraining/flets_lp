@@ -1,6 +1,6 @@
 @charset "Shift_JIS";
 /* CSS Document */
-/* ƒŠƒZƒbƒg—p */
+/* ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½p */
 
 * {
 	margin:0;
@@ -31,6 +31,6 @@ ol {
 	padding:0;
 }
 li {
-	list-style-type:decimal;
+	/*list-style-type:decimal;*/
 	list-style-position: outside;
 }

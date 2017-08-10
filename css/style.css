@@ -284,7 +284,7 @@ html, body {
 	width:210px;
   display: table;
   height: 100%;
-  border-collapse: collapse;  
+  border-collapse: collapse;
 }
 
 .syousai_list_block h2 {
@@ -362,14 +362,62 @@ html, body {
   margin-bottom: 20px;
 }
 .meritto{
+  position: relative;
+  display: block;
   width: 100%;
-  text-align:center;
-  }
-.merittoimg{
-  width:90%;
-  margin-bottom: 50px;
-  margin-top: 50px;
+
 }
+
+.meritto-gazo {
+  font-size: 0;
+}
+
+.meritto-gazo img {
+  display: block;
+  margin: 50px auto 50px;
+}
+
+.meritto-title {
+  position: absolute;
+  left: 12%;
+  top: 9%;
+  width: 100%;
+}
+
+#blue {
+  color: #0f1a90;
+}
+
+#red {
+  color: #dc143c;
+}
+
+#small {
+  font-size: 0.8em;
+}
+
+#futoku {
+  font-weight: bold;
+  color: #dc143c;
+}
+
+.meritto-ichiran {
+  position: absolute;
+  left: 15%;
+  top: 29%;
+  width: 100%;
+}
+
+.meritto h2 {
+  font-size: 2.3em;
+  margin: 0 0 3% 0;
+}
+
+.meritto li {
+  list-style: url(../images/crown.png);
+  margin-bottom: 0.5%;
+}
+
 table{
   width:90%;
 	margin:auto;

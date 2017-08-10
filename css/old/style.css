@@ -1,0 +1,462 @@
+body {
+
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo", "游ゴシック", "YuGothic", "ＭＳ Ｐゴシック", "Helvetica, Arial", "sans-serif";
+  margin-right: auto;
+  margin-left : auto;
+  height:100%;
+}
+
+
+/* index.html */
+.color1{
+  color:#1d1158;
+}
+.color2{
+  color:#ffffff;
+}
+.color3{
+  color:red;
+}
+.fl_l{float:left;}
+.clear{clear: both;}
+.pt3{padding-top:3px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.mb10{margin-bottom:10px;}
+
+
+
+
+
+.top{
+  width:100%;
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: cover;
+}
+.topin{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topright{
+  width:50%;
+  padding-top: 100px;
+  margin-left: auto;
+}
+.box1{
+  width:100%;
+  margin-bottom: 20px;
+}
+.flets{
+  width:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cashback{
+  width:100%;
+}
+.cashbackcover{
+  height:102px;
+}
+.toptext{
+  font-size:100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box2{
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
+  padding:5px;
+}
+.nishigentei{
+  float:left;
+  width:50%;
+  padding-top: 8px;
+}
+.nishigenteiin{
+  width:100%;
+}
+.box3{
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+.tokuten1,.tokuten2,.tokuten3{
+  padding-top: 20px;
+  padding-left:10px;
+  overflow: hidden;
+}
+.tokutenimg1,.tokutenimg2,.tokutenimg3{
+  width:20%;
+  float:left;
+  margin-right: 10px;
+}
+.toptextbox{
+  float:left;
+  padding-top: 5px;
+  width:75%;
+}
+.main2_midashi,.main3_midashi,.main4_midashi{
+  width:100%;
+  background-color: #1d1158;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.midashitext{
+  color:#ffffff;
+  text-align: center;
+  font-size: 150%;
+}
+.main_box2back{
+  background-color: #ffffce;
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main_box2{
+  text-align: center;
+}
+.main_boxtext{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+.hyou1,.hyou2,.hyou3,.hyou4 img{
+  width:50%;
+  margin:10px;
+  text-align: center;
+}
+.hyou3 img{
+	margin-bottom:30px;
+}
+
+.syousaibox{
+  /* 20170330 nikeda start */
+  width:850px;
+  margin-left: auto;
+  margin-right: auto;
+  /* 20170330 nikeda end */
+}
+.syousai01{
+  width: 35%;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.syousai02{
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.syousai03{
+  width: 35%;
+  display: inline-block;
+  margin-right: 30px;
+}
+.syousai04{
+  width: 35%;
+  display: inline-block;
+}
+
+/* 20170330 nikeda start */
+html, body {
+  height: 100%;
+}
+
+.syousai {
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+  padding:20px;
+}
+
+.syousai_title_block, .syousai_desc_block {
+  display: table-row;
+}
+
+.syousai_ico {
+  margin-bottom: 20px;
+  width: 0px;
+}
+
+#syousai_about .syousai_ico {
+  padding-bottom: 82px;
+}
+
+#syousai_cost .syousai_ico {
+  padding-bottom: 73px;
+}
+
+#syousai_faq .syousai_ico {
+  padding-bottom: 74px;
+}
+
+#syousai_contact .syousai_ico {
+  padding-bottom: 70px;
+}
+
+.syousai_title, .syousai_desc {
+  display: table-cell;
+  text-align: center;
+}
+
+.syousai_desc {
+  height: 100%;
+}
+
+.syousai_title h2 {
+	background-position: center top;
+  	background-repeat: no-repeat;
+	text-align:center;
+}
+
+.syousaibox p {
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.syousai_desc {
+  background-image: url(../images/syousai_text_mask.png);
+  width:100%;
+  margin:0px;
+  text-align: left;
+}
+
+#syousai_about {
+  background-image: url(../images/about_bg.jpg);
+  margin-left:25px;
+  margin-right:25px;
+  margin-bottom:25px;
+}
+
+#syousai_about_inner {
+	display:table;
+}
+
+#syousai_about_title  {
+	width:219px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-right:20px;
+  *display: block;
+  *float: left;
+  *padding-right: 0px;
+}
+
+#syousai_about_title h2 {
+  width:199px;
+  display: block;
+}
+
+#syousai_about .syousai_desc {
+	display:table-cell;
+  *display:block;
+  *float:right;
+  *width: 541px;
+}
+
+#syousai_list {
+	display:table;
+	border-collapse:separate;
+    border-spacing:25px 0;
+    height: 100%;
+    *display: block;
+    *width: 825px;
+}
+
+
+.syousai_list_block {
+	display:table-cell;
+	background-position:left bottom;
+	position: relative;
+  height: 100%;
+  *display: block;
+  *width: 250px;
+  *padding:20px 0px;
+  *text-align: center;
+  *float: left;
+}
+
+.syousai_list_block_inner {
+	width:210px;
+  display: table;
+  height: 100%;
+  border-collapse: collapse;  
+}
+
+.syousai_list_block h2 {
+	margin-bottom:20px;
+}
+
+.syousai_list_block .syousai_desc {
+}
+
+#syousai_cost {
+	background-image: url(../images/cost_bg.jpg);
+  *margin:0px 25px;
+}
+
+#syousai_faq {
+	background-image: url(../images/faq_bg.jpg);
+  *margin-right: 25px;
+}
+
+#syousai_contact {
+	background-image: url(../images/contact_bg.jpg);
+}
+
+.clear { clear:both; }
+/* 20170330 nikeda end */
+
+.main3_boxback{
+  width:85%;
+  padding:2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/new/back_blue.png);
+  background-repeat: repeat;
+  overflow: hidden;
+  border-radius: 20px;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-box;
+  display:-webkit-flexbox;
+  display:-moz-flexbox;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  -webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+.main3_box1,.main3_box2,.main3_box3,.main3_box4{
+  float:left;
+  width:44%;
+  margin: 1%;
+  padding:2%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.mark1,.mark2,.mark3,.mark4{
+  width:70%;
+  margin-bottom: 10px;
+}
+.main3_boxin,.main4_boxin{
+  max-width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+.main3_box3img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.meritto{
+  width: 100%;
+  text-align:center;
+  }
+.merittoimg{
+  width:90%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+table{
+  width:90%;
+	margin:auto;
+	margin-top: 10px;
+  margin-bottom:50px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	font-size: 14px;
+  border-collapse: collapse;
+}
+.menu01 th{
+  border: 1px;
+  border-style: solid;
+  border-color: #999999;
+  padding:5px 8px;
+	text-align:center;
+	color:#FFFFFF;
+	background-color: #345cd1;
+}
+td{
+	padding:5px 8px;
+	text-align:center;
+	color:#333;
+	background-color: #ffffff;
+	line-height:150%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+  border-left-width: 1px;
+  border-left-style: solid;
+	border-left-color: #999999;
+}
+.menu02{
+  background-color: #fef1fc;
+}
+.menu03{
+  background-color: #fef1fc;
+}
+.toiawase{
+  margin-top: 15px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.toitop{
+  border: 3px solid #110ac1;
+  border-bottom: 0px;
+  background-color: #101690;
+  padding:10px;
+  padding-left: 40px;
+}
+.toitop p{
+  font:120%;
+  font-weight: bolder;
+  color:#fff
+}
+.toibottom{
+  border: 3px solid #110ac1;
+  border-top: 0px;
+  overflow: hidden;
+  padding:10px;
+}
+.toiimg{
+  float:left;
+  width:20%;
+}
+.toibtmtxt{
+  float:left;
+  width:75%;
+  padding:2%;;
+}
+.sannkaku{
+  width:5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}
