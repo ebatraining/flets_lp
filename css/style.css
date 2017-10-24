@@ -135,13 +135,14 @@ body {
 }
 
 .mbimg{
-  width: 78%;
+  /*width: 78%;*/
   margin: 1em auto 3em;
 }
 
 .mbimg img{
   zoom: 0.8;
   margin: 1em auto;
+  display: block;
 }
 
 
